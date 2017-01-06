@@ -1,0 +1,50 @@
+<view class="container">
+    <image class="background" src="../image/V1.0-bg_01.png"></image>
+    <view class="header container">
+        <text class="date">{{date}}</text>
+        <image class="img" src="../image/V1.0-image_bg.png"></image>
+        <text class="tips">{{tips}}</text>
+    </view>
+    <view class="content">
+        <image src="../image/V1.0-image.png"></image>
+        <view class="fortune">
+            <view class="list">
+                <text>综合</text>
+                <image src="../image/V1.0-star_0{{all}}.png"></image>
+            </view>
+            <view class="list">
+                <text>事业</text>
+                <image src="../image/V1.0-star_0{{work}}.png"></image>
+            </view>
+            <view class="list">
+                <text>爱情</text>
+                <image src="../image/V1.0-star_0{{love}}.png"></image>
+            </view>
+            <view class="list">
+                <text>财富</text>
+                <image src="../image/V1.0-star_0{{money}}.png"></image>
+            </view>
+            <view class="list">
+                <text>健康</text>
+                <image src="../image/V1.0-star_0{{health}}.png"></image>
+            </view>
+        </view>
+    </view>
+    <view class="jewelry">
+        <view class="definition">
+            <text>转运首饰 —— </text>
+            <text class="name">小狐狸魅力镶钻耳钉</text>
+        </view>
+        <view class="intro">牛牛总是那么精力充沛。但是各方面都没有达到最好的状态哦，还是需要有所突破哦，不如彻底改变那种憨厚老实的风格来个突破。不妨尝试一下这款小狐狸魅力耳钉</view>
+        <image class="pic" src="../image/V1.0-image_01.jpg"></image>
+        <view class="link">
+            <text>https://item.taobao.com/item.htm?spm=a1z10.5-c-s.w4002-15518950284.61.g4VAC8&id=543033399227</text>
+        </view>
+        <view class="notes">
+            <text>产品详情可以</text>
+            <text class="open">长按复制链接使用浏览器打开</text>
+            <text>查看哦</text>
+        </view>
+    </view>
+    <view class="copyright">一恋倾星版权所有</view>
+</view>

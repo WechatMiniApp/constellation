@@ -1,0 +1,68 @@
+/**app.wxss**/
+.container {
+  /*height: 100%;*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*justify-content: space-between;*/
+  /*padding: 200rpx 0;*/
+  box-sizing: border-box;
+} 
+page{
+    background-color:#F8F5ED;
+    height:100%;
+}
+
+/*底部栏*/
+.footer{
+  width: 100%;
+  height: 160rpx;
+  display: fixed;
+  position: absolute;
+  bottom: 0;
+}
+.footer .bgImg{
+  width: 100%;
+  height: 160rpx;
+  position: absolute;
+  bottom: 0;
+}
+.footer .tabBar{
+  position: absolute;
+  bottom: 12rpx;
+}
+.footer .nearby{
+  left: 80rpx;
+}
+.footer .scanning{
+  left: 200rpx;
+}
+.footer .news{
+  right: 200rpx;
+}
+.footer .me{
+  right: 80rpx;
+}
+.footer .tabBar image{
+  width: 40rpx;
+  height: 42rpx;
+}
+.footer .ar{
+  position: absolute;
+  width: 120rpx;
+  padding-top: 20rpx; 
+  margin-left: 316rpx;
+}
+.footer .ar image{
+  width: 120rpx;
+  height: 120rpx;
+}
+.footer .tabBar text{
+  font-size: 10px;
+  color: #FFFFFF;
+  line-height: 10px;
+  display: block;
+}
+.footer .tabBar:nth-child(1) text{
+  color: #FBCC2E;
+}

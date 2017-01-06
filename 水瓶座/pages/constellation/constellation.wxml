@@ -1,0 +1,50 @@
+<view class="container">
+    <image class="background" src="../image/V1.0-bg_01.png"></image>
+    <view class="header container">
+        <text class="date">{{date}}</text>
+        <image class="img" src="../image/V1.0-image_bg.png"></image>
+        <text class="tips">{{tips}}</text>
+    </view>
+    <view class="content">
+        <image src="../image/V1.0-image.png"></image>
+        <view class="fortune">
+            <view class="list">
+                <text>综合</text>
+                <image src="../image/V1.0-star_0{{all}}.png"></image>
+            </view>
+            <view class="list">
+                <text>事业</text>
+                <image src="../image/V1.0-star_0{{work}}.png"></image>
+            </view>
+            <view class="list">
+                <text>爱情</text>
+                <image src="../image/V1.0-star_0{{love}}.png"></image>
+            </view>
+            <view class="list">
+                <text>财富</text>
+                <image src="../image/V1.0-star_0{{money}}.png"></image>
+            </view>
+            <view class="list">
+                <text>健康</text>
+                <image src="../image/V1.0-star_0{{health}}.png"></image>
+            </view>
+        </view>
+    </view>
+    <view class="jewelry">
+        <view class="definition">
+            <text>转运首饰 —— </text>
+            <text class="name">极光方糖创意耳坠</text>
+        </view>
+        <view class="intro">搞不定的麻烦总是去了又来，直接来个了断吧，今天可以让自己看起来更加干练的，努力把事情做好，干脆利落的，但是也要美美的，做个美女战士吧。干净利落的方糖的吊坠和耳坠，采用奥地利水晶，简单却不失华美。</view>
+        <image class="pic" src="../image/V1.0-image_01.jpg"></image>
+        <view class="link">
+            <text>https://item.taobao.com/item.htm?spm=a1z10.3-c-s.w4002-15518950279.12.uWn84l&id=544060707759</text>
+        </view>
+        <view class="notes">
+            <text>产品详情可以</text>
+            <text class="open">长按复制链接使用浏览器打开</text>
+            <text>查看哦</text>
+        </view>
+    </view>
+    <view class="copyright">一恋倾星版权所有</view>
+</view>

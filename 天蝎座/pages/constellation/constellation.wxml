@@ -1,0 +1,50 @@
+<view class="container">
+    <image class="background" src="../image/V1.0-bg_01.png"></image>
+    <view class="header container">
+        <text class="date">{{date}}</text>
+        <image class="img" src="../image/V1.0-image_bg.png"></image>
+        <text class="tips">{{tips}}</text>
+    </view>
+    <view class="content">
+        <image src="../image/V1.0-image.png"></image>
+        <view class="fortune">
+            <view class="list">
+                <text>综合</text>
+                <image src="../image/V1.0-star_0{{all}}.png"></image>
+            </view>
+            <view class="list">
+                <text>事业</text>
+                <image src="../image/V1.0-star_0{{work}}.png"></image>
+            </view>
+            <view class="list">
+                <text>爱情</text>
+                <image src="../image/V1.0-star_0{{love}}.png"></image>
+            </view>
+            <view class="list">
+                <text>财富</text>
+                <image src="../image/V1.0-star_0{{money}}.png"></image>
+            </view>
+            <view class="list">
+                <text>健康</text>
+                <image src="../image/V1.0-star_0{{health}}.png"></image>
+            </view>
+        </view>
+    </view>
+    <view class="jewelry">
+        <view class="definition">
+            <text>转运首饰 —— </text>
+            <text class="name">海洋之心水晶项链</text>
+        </view>
+        <view class="intro">水逆还没退去的蝎蝎这一周真的不好过哦，但是也别忘了好好打扮自己哦，因为你不知道命运在下一个转角为你准备了什么，不管是遇见前任还是新欢，都要让自己美美的哦</view>
+        <image class="pic" src="../image/V1.0-image_01.jpg"></image>
+        <view class="link">
+            <text>https://item.taobao.com/item.htm?spm=686.1000925.0.0.XKtPD9&id=543556981845</text>
+        </view>
+        <view class="notes">
+            <text>产品详情可以</text>
+            <text class="open">长按复制链接使用浏览器打开</text>
+            <text>查看哦</text>
+        </view>
+    </view>
+    <view class="copyright">一恋倾星版权所有</view>
+</view>

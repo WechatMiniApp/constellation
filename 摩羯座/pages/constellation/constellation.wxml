@@ -1,0 +1,50 @@
+<view class="container">
+    <image class="background" src="../image/V1.0-bg_01.png"></image>
+    <view class="header container">
+        <text class="date">{{date}}</text>
+        <image class="img" src="../image/V1.0-image_bg.png"></image>
+        <text class="tips">{{tips}}</text>
+    </view>
+    <view class="content">
+        <image src="../image/V1.0-image.png"></image>
+        <view class="fortune">
+            <view class="list">
+                <text>综合</text>
+                <image src="../image/V1.0-star_0{{all}}.png"></image>
+            </view>
+            <view class="list">
+                <text>事业</text>
+                <image src="../image/V1.0-star_0{{work}}.png"></image>
+            </view>
+            <view class="list">
+                <text>爱情</text>
+                <image src="../image/V1.0-star_0{{love}}.png"></image>
+            </view>
+            <view class="list">
+                <text>财富</text>
+                <image src="../image/V1.0-star_0{{money}}.png"></image>
+            </view>
+            <view class="list">
+                <text>健康</text>
+                <image src="../image/V1.0-star_0{{health}}.png"></image>
+            </view>
+        </view>
+    </view>
+    <view class="jewelry">
+        <view class="definition">
+            <text>转运首饰 —— </text>
+            <text class="name">天然紫水晶桃心吊坠</text>
+        </view>
+        <view class="intro">痘痘还在，青春却一去不复返。不妨注意大家的注意力，别总是看脸了，不妨看看胸。哈哈，你想歪是，我说的是胸上面的吊坠。来试试这个天然紫水晶桃心吊坠吧，最重要的是适合去炫耀一下哦，支持检测，假一赔十</view>
+        <image class="pic" src="../image/V1.0-image_01.jpg"></image>
+        <view class="link">
+            <text>https://item.taobao.com/item.htm?spm=a1z10.5-c-s.w4002-15518950</text>
+        </view>
+        <view class="notes">
+            <text>产品详情可以</text>
+            <text class="open">长按复制链接使用浏览器打开</text>
+            <text>查看哦</text>
+        </view>
+    </view>
+    <view class="copyright">一恋倾星版权所有</view>
+</view>
